@@ -1,9 +1,9 @@
 function primaryServer () {
-    throw new Error ("primary server nor connect");
+    throw new Error ("primary server not connect");
 }
 
 function backupServer (){
-    return "bacukp server response";
+    return "backup server response";
 }
 
 function requisition (){
